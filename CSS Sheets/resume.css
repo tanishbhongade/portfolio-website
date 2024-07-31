@@ -1,0 +1,33 @@
+body{
+    background-image: url('../leandra-rieger-VEdKXNhbeWs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#resume-content{
+    color: white;
+    font-size: 25px;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 75vw;
+    background-color: rgb(30, 26, 26);
+}
+
+.school-names{
+    list-style: none;
+}
+
+#centering-div{
+    display: flex;
+    justify-content: center;
+}
+
+.resume-inner-details{
+    margin-left: 20px;
+
+}
+
+#resume-inner-first{
+    margin-top: 20px;
+}

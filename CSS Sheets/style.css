@@ -1,0 +1,53 @@
+.nav-list-items {
+    list-style: none;
+    padding-left: 80px;
+    font-size: 19px;
+}
+
+.nav-list-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar {
+    display: flex;
+    background-color: #C9C4B5;
+    height: 40px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+body {
+    /* Image by <a href="https://www.freepik.com/free-photo/top-view-agendas-succlent-plant_7079184.htm#query=portfolio%20background&position=15&from_view=keyword&track=ais_user&uuid=7648a313-f1b8-423a-ab40-2bc19211b1e3">Freepik</a> */
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../leandra-rieger-VEdKXNhbeWs-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hi-there {
+    color: white;
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    /* margin-left: 25vw; */
+    /* flex-direction: column; */
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-2{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25vw; */
+}
+
+#intro-lines{
+    color: white;
+    width: 50vw;
+    font-size: 25px;
+    text-align: center;
+}
