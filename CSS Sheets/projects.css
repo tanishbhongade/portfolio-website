@@ -27,12 +27,12 @@ body {
     background-image: url('../leandra-rieger-VEdKXNhbeWs-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #menu-btn-img{
     display: none;
     height: 50px;
-    
 }
 
 #centering-div{
