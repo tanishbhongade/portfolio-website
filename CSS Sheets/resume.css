@@ -6,7 +6,7 @@ body{
 
 #resume-content{
     color: white;
-    font-size: 25px;
+    font-size: clamp(14px, 1.5vw, 25px);
     flex-direction: column;
     border: 2px solid white;
     border-radius: 15px;

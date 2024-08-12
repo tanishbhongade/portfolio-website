@@ -1,7 +1,7 @@
 .nav-list-items {
     list-style: none;
     /* padding-left: 7vw; */
-    font-size: clamp(17px, 1.5vw, 19px);
+    font-size: clamp(16px, 1.5vw, 19px);
 }
 
 .nav-list-links {
@@ -22,44 +22,47 @@
 
 body {
     /* Image by <a href="https://www.freepik.com/free-photo/top-view-agendas-succlent-plant_7079184.htm#query=portfolio%20background&position=15&from_view=keyword&track=ais_user&uuid=7648a313-f1b8-423a-ab40-2bc19211b1e3">Freepik</a> */
-    /* 
-    */
-    margin: 0px;    
+    margin: 0px;
     padding: 0px;
     background-image: url('../leandra-rieger-VEdKXNhbeWs-unsplash.jpg');
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#menu-btn-img {
+#menu-btn-img{
     display: none;
     height: 50px;
-
+    
 }
 
-.hi-there {
-    color: white;
-    font-size: clamp(14px, 3vw, 40px);
-    font-family: "Open Sans", sans-serif;
-    /* margin-left: 25vw; */
-    /* flex-direction: column; */
-}
-
-.intro {
+#centering-div{
     display: flex;
     justify-content: center;
 }
 
-.intro-2 {
-    display: flex;
-    justify-content: center;
-    /* margin-left: 25vw; */
+#project-content{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 75vw;
+    background-color: rgb(30, 26, 26);
 }
 
-#intro-lines {
+#proj1{
+    margin-top: 15px;
+}
+
+#proj3{
+    margin-bottom: 15px;
+}
+
+.proj-headings{
     color: white;
-    width: 50vw;
+    margin-left: 15px;
     font-size: clamp(14px, 1.5vw, 25px);
-    text-align: center;
+}
+
+.proj-content{
+    color: white;
+    margin-left: 20px;
+    font-size: clamp(14px, 1.5vw, 25px);
 }
