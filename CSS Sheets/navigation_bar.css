@@ -1,0 +1,21 @@
+.nav-list-items {
+    list-style: none;
+    /* padding-left: 7vw; */
+    font-size: clamp(17px, 1.5vw, 19px);
+}
+
+.nav-list-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-bar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5vw;
+    background-color: #C9C4B5;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
